@@ -1,10 +1,14 @@
 import React from "react";
-import "../styles/global.scss";
+import Layoud from "../containers/Layoud";
+import { Login } from "../containers/Login";
+import "../styles/global.css";
 
 const App = () => {
   return (
     <>
-      <h1>¡Hola mundo!</h1>
+      <Layoud>
+        <Login />
+      </Layoud>
     </>
   );
 };
