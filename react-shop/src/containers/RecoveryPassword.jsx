@@ -24,4 +24,4 @@ const RecoveryPassword = () => {
   );
 }
 
-export default RecoveryPassword;
+export { RecoveryPassword };

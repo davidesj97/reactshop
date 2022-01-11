@@ -8,4 +8,4 @@ const Layoud = ({ children }) => {
   );
 }
 
-export default Layoud;
+export { Layoud };
